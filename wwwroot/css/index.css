@@ -1,3 +1,7 @@
+html, body{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
 img.bg{
     /* Set rules to fill background */
     min-height: 100%;
@@ -13,7 +17,10 @@ img.bg{
     left: 0;
     
     z-index: -1;
-    opacity: .9;
+    opacity: .85;
+
+    /* background-attachment: fixed;
+    background-repeat: no-repeat; */
 }
 
 .punctuation{
@@ -22,22 +29,89 @@ img.bg{
 
 .position{
     color: rgb(0, 119, 255);
+    text-align: center;
 }
 
 .about_me_box{
-    border-radius: 10px;
-    border: solid .5px gray;
-    background-color: rgba(255, 254, 247, .70);
-    opacity: 0.5;
+    background-color: rgba(255, 254, 247, .30);
     margin-top: 10%;
-    box-shadow:gray 1.5px 1.5px 1.5px 1.5px;
-}
-
-p{
-    color: black;
+    box-shadow:gray 2px 2px 2px 2px;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px #888;
+    border-radius: 3px;
 }
 
 .icon{
-    height: 75px;
-    width: 75px;
+    height: 45px;
+    width: 45px;
+    margin: 3px 0 0 15px;
+}
+
+.smallicon{
+    height: 50px;
+    width: 50px;
+    margin: 0 15px 0 5px;
+}
+
+h1 {
+    font-size: 92px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+
+    color: #2c2c2c;
+    letter-spacing: .05em;
+    text-shadow: 
+        3px 3px 0px #d5d5d5, 
+        7px 7px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+.tech_skills{
+    background-color: #333B50;
+    opacity: .85;
+    height: 100%;
+    width: 50%;
+    box-shadow:gray 2px 2px 2px 2px;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px #888;
+    margin: 0 auto 0 auto;
+    border-radius: 3px;
+}
+
+.white_text{
+    color: white;
+}
+
+.stack_icon{
+    height: 65%;
+    width: 65%;
+}
+
+.stack_box{
+    border: solid 1px white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.python:hover{
+    background-color: #1E4F7A;
+}
+
+.mean:hover{
+    background-color: rgba(130, 187, 70, 0.822);
+}
+
+.csharp:hover{
+    background-color: rgba(106, 45, 102, 0.486);
+}
+
+.stack_head{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.stack_item{
+    color: white;
+    margin: 0px;
+    font-size: 15px;
 }
